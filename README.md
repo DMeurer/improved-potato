@@ -1,15 +1,15 @@
 ### Note
 
 This theme for Obsidian ([https://obsidian.md](https://obsidian.md/)) was build using code from the [Things Theme](https://github.com/colineckert/obsidian-things/tree/main). 
-I really like the things theme, but i wanted to make some changes, and to be able to make changes for a personal project.
+I really like the Things theme, but i wanted to make some changes, and to be able to make changes in the future for a personal project.
 
-Please support the original creator (**@colineckert**) of the theme, and use the original theme if you like it. Chances are high that the original theme is better than this one.
+Please support the original creator (**@colineckert**) of the theme, and use the original theme if you like it. Also, chances are high that the original theme is better than this one.
 
 # Improved Potato
 
 *Why this name?* Because I'm a potato, and I'm trying to improve myself.
 Nah, just kidding. I mean, I am a potato, but that's not the reason for the name.
-GitHub came up with it when crating the Repository.
+GitHub came up with it when creating the Repository.
 
 ![Alt text](images/image.png)
 
@@ -28,8 +28,17 @@ I'm a huge fan of the "configure everything until its ugly" approach that the Je
 
 ### Configuration options
 
-- Fancy Code Block (toggle)
+- toggle Fancy Code Block (copy of Things)
 - for each Header size (1-6):
   - Font Size
   - Font Color
   - Wether its underlined or not
+- Divider color
+- Base color
+
+
+# Installation
+
+Please use the Obsidian-build-in option with the theme store.
+
+To configure this theme, use the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin.
