@@ -15,12 +15,12 @@ It is heavily inspired by the Things Theme by @colineckert
 body {
   /* Colors */
   --base-h: 218; /* Base hue */
-  --base-s: 18.1%; /* Base saturation */
-  --base-d: 20.6%; /* Base lightness Dark Mode  - 0 is black */
+  --base-s: 18%; /* Base saturation */
+  --base-d: 16%; /* Base lightness Dark Mode  - 0 is black */
   --base-l: 97%; /* Base lightness Light Mode  - 100 is white */
   --accent-h: 206; /* Accent hue */
-  --accent-s: 100%; /* Accent saturation */
-  --accent-d: 76.7%; /* Accent lightness Dark Mode */
+  --accent-s: 92%; /* Accent saturation */
+  --accent-d: 61%; /* Accent lightness Dark Mode */
   --accent-l: 60%; /* Accent lightness Light Mode */
 
   --blue: #3C94FF;
@@ -30,6 +30,8 @@ body {
   --orange: #FF6A00;
   --red: #FF3C3C;
   --purple: #B97CFF;
+
+  --divider-color: var(--color-base-30);
 
   --h1-color: var(--text-normal);
   --h2-color: var(--text-normal);
@@ -48,6 +50,28 @@ body {
   --h4-size: 1.1rem;
   --h5-size: 1rem;
   --h6-size: 0.9rem;
+}
+
+.theme-light {
+    color-scheme: light;
+}
+
+.theme-dark {
+    color-scheme: dark;
+
+    --color-base-00: hsl(216, 19%, 16%); /* main editor window */
+    --color-base-10: hsl(218, 18%, 23%); /* code blocks */
+    --color-base-20: hsl(218, 18%, 23%); /* side menu */
+    --color-base-25: hsl(218, 18%, 30%); /* top navigation bar, unfocused */
+    --color-base-30: hsl(218, 18%, 38%); /* top navigation bar, focused */
+    --color-base-35: hsl(218, 18%, 45%);
+    --color-base-40: hsl(218, 18%, 53%);
+    --color-base-50: hsl(218, 18%, 61%); /* unfocused text */
+    --color-base-60: hsl(218, 18%, 69%);
+    --color-base-70: hsl(218, 18%, 78%);
+    --color-base-100: hsl(218, 18%, 86%);
+
+    --titlebar-background: var(--color-base-25);
 }
 
 /* ─────────────────────────────────────────────────── */
@@ -406,4 +430,94 @@ settings:
         description: Toggle H6 underline (border-bottom)
         type: class-toggle
         default: false
+	-
+        id: colors
+        title: Other colors
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: divider-color
+        title: Divider color
+        type: variable-color
+        format: hex
+        default: '#656a74'
+	-
+        id: color-bases
+        title: Color bases
+        type: heading
+        level: 3
+        collapsed: true
+    -
+        id: color-base-00
+        title: Color base 00
+        description: Main editor window
+        type: variable-color
+        format: hsl
+        default: '#212731'
+    -
+        id: color-base-10
+        title: Color base 10
+        description: Code blocks
+        type: variable-color
+        format: hsl
+        default: '#303845'
+    -
+        id: color-base-20
+        title: Color base 20
+        description: Side menu
+        type: variable-color
+        format: hsl
+        default: '#303845'
+    -
+        id: color-base-25
+        title: Color base 25
+        description: Top navigation bar, unfocused
+        type: variable-color
+        format: hsl
+        default: '#3f495a'
+    -
+        id: color-base-30
+        title: Color base 30
+        description: Top navigation bar, focused
+        type: variable-color
+        format: hsl
+        default: '#4f5c72'
+    -
+        id: color-base-35
+        title: Color base 35
+        type: variable-color
+        format: hsl
+        default: '#5e6d87'
+    -
+        id: color-base-40
+        title: Color base 40
+        type: variable-color
+        format: hsl
+        default: '#72819d'
+    -
+        id: color-base-50
+        title: Color base 50
+        description: Unfocused text
+        type: variable-color
+        format: hsl
+        default: '#8a97ad'
+    -
+        id: color-base-60
+        title: Color base 60
+        type: variable-color
+        format: hsl
+        default: '#a2acbe'
+    -
+        id: color-base-70
+        title: Color base 70
+        type: variable-color
+        format: hsl
+        default: '#bdc4d1'
+    -
+        id: color-base-100
+        title: Color base 100
+        type: variable-color
+        format: hsl
+        default: '#d5dae2'
 */
