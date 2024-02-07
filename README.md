@@ -36,6 +36,8 @@ I'm a huge fan of the "configure everything until its ugly" approach that the Je
   - Wether its underlined or not
 - Divider color
 - Base color (light and dark theme)
+- line number color
+- configurable line marker (toggle, line number color)
 
 
 # Installation
