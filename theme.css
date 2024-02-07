@@ -1,7 +1,6 @@
 
 /* ───────────────────────────────────────────────────
 Improved Potato Theme
-Version 1.0.0
 Created by Dominik Meurer
 
 It is heavily inspired by the Things Theme by @colineckert
@@ -304,9 +303,26 @@ body.fancy-code .markdown-preview-view pre code {
 
 
 /* Project */
+/* ─────────────────────────────────────────────────── */
 
 div.footer.svelte-1kmm5u0 {
 	background-color: var(--background-primary)
+}
+
+/* Calendar */
+/* ─────────────────────────────────────────────────── */
+
+div.day.has-note.today.svelte-q3wqg9 {
+    --color-text-today: var(--pink);
+    font-weight: var(--font-bold);
+}
+
+.theme-dark div.reset-button.svelte-1vwr9dd {
+    color: hsl(var(--accent-h), var(--accent-s), var(--accent-d)) !important;
+}
+
+.theme-light div.reset-button.svelte-1vwr9dd {
+    color: hsl(var(--accent-h), var(--accent-s), var(--accent-l)) !important;
 }
 
 
@@ -517,6 +533,12 @@ settings:
         type: variable-color
         format: hex
         default: '#FFD500'
+    -
+        id: color-text-today
+        title: Calendar plugin today color
+        type: variable-color
+        format: hex
+        default: '#ff3c7f'
 	-
         id: color-bases
         title: Color bases
