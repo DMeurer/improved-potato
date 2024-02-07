@@ -28,13 +28,14 @@ I'm a huge fan of the "configure everything until its ugly" approach that the Je
 
 ### Configuration options
 
-- toggle Fancy Code Block (copy of Things)
+- toggle fancy Code Block (copy of Things)
+- toggle fancy Mermaid
 - for each Header size (1-6):
   - Font Size
   - Font Color
   - Wether its underlined or not
 - Divider color
-- Base color
+- Base color (light and dark theme)
 
 
 # Installation
