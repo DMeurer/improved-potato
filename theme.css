@@ -69,6 +69,8 @@ body {
 
     --titlebar-background: var(--color-base-10);
     --titlebar-background-focused: var(--color-base-25);
+
+    --line-number-color: var(--color-base-50);
 }
 
 .theme-dark {
@@ -87,6 +89,8 @@ body {
     --color-base-100: #ccd2db;
 
     --titlebar-background: var(--color-base-25);
+
+    --line-number-color: var(--color-base-50);
 }
 
 /* ─────────────────────────────────────────────────── */
@@ -167,6 +171,11 @@ body.fancy-mermaid .edgeLabel:not(:empty) {
     border: 1px solid var(--divider-color);
     border-radius: var(--radius-m);
     padding: 2px;
+}
+
+/* Line numbers */
+div.cm-gutter.cm-lineNumbers {
+    color: var(--line-number-color);
 }
 
 
@@ -484,6 +493,13 @@ settings:
         type: variable-color
         format: hex
         default: '#656a74'
+    -
+        id: line-number-color
+        title: Line number color
+        type: variable-color
+        format: hex
+        default-light: '#7b89a3'
+        default-dark: '#7886a1'
 	-
         id: color-bases
         title: Color bases
