@@ -161,7 +161,7 @@ body:not(.default-font-color) span:not(.cm-highlight).cm-em {
 }
 
 /* Mermaid line texts */
-body.fancy-mermaid .edgeLabel {
+body.fancy-mermaid .edgeLabel:not(:empty) {
     background-color: var(--background-primary);
     color: var(--text-normal);
     border: 1px solid var(--divider-color);
