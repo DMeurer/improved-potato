@@ -145,6 +145,15 @@ body:not(.default-font-color) span:not(.cm-highlight).cm-em {
   color: var(--em-color);
 }
 
+/* Mermaid line texts */
+body.fancy-mermaid .edgeLabel {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--divider-color);
+    border-radius: var(--radius-m);
+    padding: 2px;
+}
+
 
 /* ─────────────────────────────────────────────────── */
 /* Code blocks */
@@ -261,6 +270,18 @@ body.fancy-code .markdown-preview-view pre code {
 }
 
 /* ─────────────────────────────────────────────────── */
+/* Plugins */
+/* ─────────────────────────────────────────────────── */
+
+
+/* Project */
+
+div.footer.svelte-1kmm5u0 {
+	background-color: var(--background-primary)
+}
+
+
+/* ─────────────────────────────────────────────────── */
 /* Styles Settings */
 /* ─────────────────────────────────────────────────── */
 
@@ -278,6 +299,12 @@ settings:
         title: Fancy code blocks
         description: Enable fancy numbered code blocks
         id: fancy-code
+        type: class-toggle
+        default: true
+    -
+        title: Fancy mermaid diagrams
+        description: Enable styled names for connections in mermaid diagrams
+        id: fancy-mermaid
         type: class-toggle
         default: true
     - 
