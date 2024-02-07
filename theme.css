@@ -32,6 +32,7 @@ body {
   --purple: #B97CFF;
 
   --divider-color: var(--color-base-30);
+  --current-line-number-color: var(--yellow);
 
   --h1-color: var(--text-normal);
   --h2-color: var(--text-normal);
@@ -176,6 +177,10 @@ body.fancy-mermaid .edgeLabel:not(:empty) {
 /* Line numbers */
 div.cm-gutter.cm-lineNumbers {
     color: var(--line-number-color);
+}
+
+body.fancy-mark-current-line div.cm-gutter.cm-lineNumbers .cm-active {
+    color: var(--current-line-number-color);
 }
 
 
@@ -329,6 +334,12 @@ settings:
         title: Fancy mermaid diagrams
         description: Enable styled names for connections in mermaid diagrams
         id: fancy-mermaid
+        type: class-toggle
+        default: true
+    -
+        title: Mark current line
+        description: Mark the current line in the editor
+        id: fancy-mark-current-line
         type: class-toggle
         default: true
     - 
@@ -500,6 +511,12 @@ settings:
         format: hex
         default-light: '#7b89a3'
         default-dark: '#7886a1'
+    -
+        id: current-line-number-color
+        title: Current line line number color
+        type: variable-color
+        format: hex
+        default: '#FFD500'
 	-
         id: color-bases
         title: Color bases
