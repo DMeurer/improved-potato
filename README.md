@@ -1,6 +1,6 @@
 ### Note
 
-This theme for Obsidian ([https://obsidian.md](https://obsidian.md/)) was build using code from the [Things Theme](https://github.com/colineckert/obsidian-things/tree/main). 
+This theme for [Obsidian.md](https://obsidian.md/) was build using code from the [Things Theme](https://github.com/colineckert/obsidian-things/tree/main). 
 I really like the Things theme, but i wanted to make some changes, and to be able to make changes in the future for a personal project.
 
 Please support the original creator (**@colineckert**) of the theme, and use the original theme if you like it. Also, chances are high that the original theme is better than this one.
