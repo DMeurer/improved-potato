@@ -321,6 +321,115 @@ body.fancy-code .markdown-preview-view pre code {
 }
 
 /* ─────────────────────────────────────────────────── */
+/* Callouts */
+/* ─────────────────────────────────────────────────── */
+
+/* Info */
+
+.callout[data-callout="info-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: lucide-info;
+}
+
+/* Text */
+
+.callout[data-callout="text-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: lucide-text;
+}
+
+
+/* ─────────────────────────────────────────────────── */
 /* Plugins */
 /* ─────────────────────────────────────────────────── */
 
