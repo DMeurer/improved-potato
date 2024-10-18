@@ -50,6 +50,13 @@ body {
   --h4-size: 1.1rem;
   --h5-size: 1rem;
   --h6-size: 0.9rem;
+
+  --callout-icon-c1: lucide-scan;
+  --callout-icon-c2: lucide-scan;
+  --callout-icon-c3: lucide-scan;
+  --callout-icon-c4: lucide-scan;
+
+  --callout-icon-mt: ;
 }
 
 .theme-light {
@@ -319,6 +326,376 @@ body.fancy-code .markdown-reading-view .markdown-preview-view pre code {
 body.fancy-code .markdown-preview-view pre code {
 	padding: var(--size-4-1) var(--size-4-5);
 }
+
+/* ─────────────────────────────────────────────────── */
+/* Callouts */
+/* ─────────────────────────────────────────────────── */
+
+/* Info */
+
+.callout[data-callout="info-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: lucide-info;
+}
+
+.callout[data-callout="info-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: lucide-info;
+}
+
+/* Text */
+
+.callout[data-callout="text-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: lucide-text;
+}
+
+.callout[data-callout="text-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: lucide-text;
+}
+
+/* Custom 1 */
+
+.callout[data-callout="c1-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+.callout[data-callout="c1-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: var(--callout-icon-c1);
+}
+
+/* Custom 2 */
+
+.callout[data-callout="c2-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+.callout[data-callout="c2-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: var(--callout-icon-c2);
+}
+
+/* Custom 3 */
+
+.callout[data-callout="c3-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+.callout[data-callout="c3-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: var(--callout-icon-c3);
+}
+
+/* Custom 4 */
+
+.callout[data-callout="c4-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+.callout[data-callout="c4-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: var(--callout-icon-c4);
+}
+
+
+/* Empty */
+
+.callout[data-callout="mt-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: var(--callout-icon-mt);
+}
+
 
 /* ─────────────────────────────────────────────────── */
 /* Plugins */
@@ -662,4 +1039,30 @@ settings:
         opacity: true
         default-light: '#485465'
         default-dark: '#ccd2db'
+	-
+        id: callouts
+        title: Callouts
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: callout-icon-c1
+        title: Callout Icon c1
+        type: variable-text
+        default: 'lucide-scan'
+    -
+        id: callout-icon-c2
+        title: Callout Icon c2
+        type: variable-text
+        default: 'lucide-scan'
+    -
+        id: callout-icon-c3
+        title: Callout Icon c3
+        type: variable-text
+        default: 'lucide-scan'
+    -
+        id: callout-icon-c4
+        title: Callout Icon c4
+        type: variable-text
+        default: 'lucide-scan'
 */
