@@ -55,6 +55,8 @@ body {
   --callout-icon-c2: lucide-scan;
   --callout-icon-c3: lucide-scan;
   --callout-icon-c4: lucide-scan;
+
+  --callout-icon-mt: ;
 }
 
 .theme-light {
@@ -639,6 +641,59 @@ body.fancy-code .markdown-preview-view pre code {
 .callout[data-callout="c4-light-purple"] {
     --callout-color: 233, 182, 245;
     --callout-icon: var(--callout-icon-c4);
+}
+
+
+/* Empty */
+
+.callout[data-callout="mt-pink"] {
+    --callout-color: 255, 184, 235;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-blue"] {
+    --callout-color: 173, 204, 255;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-green"] {
+    --callout-color: 187, 250, 187;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-yellow"] {
+    --callout-color: 255, 243, 163;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-red"] {
+    --callout-color: 255, 143, 143;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-purple"] {
+    --callout-color: 210, 179, 255;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-orange"] {
+    --callout-color: 255, 206, 153;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-light-blue"]{
+    --callout-color: 172, 226, 251;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-cyan"]{
+    --callout-color: 171, 247, 247;
+    --callout-icon: var(--callout-icon-mt);
+}
+
+.callout[data-callout="mt-light-purple"] {
+    --callout-color: 233, 182, 245;
+    --callout-icon: var(--callout-icon-mt);
 }
 
 
