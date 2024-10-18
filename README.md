@@ -38,6 +38,45 @@ I'm a huge fan of the "configure everything until its ugly" approach that the Je
 - Base color (light and dark theme)
 - line number color
 - configurable line marker (toggle, line number color)
+- Calouts
+  - Custom Icons for the callouts c1 to c4
+
+## Features
+
+### Fancy Code blocks
+
+Yeah i just like em
+
+### Fancy Headers
+
+I kinda like em and you can change them as you want.
+
+### Custom callouts
+
+A bunch of custom callouts.
+
+Predefined are `info`, `text` and `mt`.
+
+You can choose the Icon for `c1`, `c2`, `c3` and `c4`.
+
+Every callout has to have a color attatched.
+
+Possible colors are:
+- `pink`
+- `blue`
+- `green`
+- `yellow`
+- `red`
+- `purple`
+- `orange`
+- `light-blue`
+- `cyan`
+- `light-purple`
+
+So this is what a valid callout would look like:
+
+> [!info-pink] Title
+> Content
 
 
 # Installation
