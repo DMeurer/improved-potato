@@ -22,13 +22,26 @@ body {
   --accent-d: 61%; /* Accent lightness Dark Mode */
   --accent-l: 60%; /* Accent lightness Light Mode */
 
-  --blue: #3C94FF;
-  --pink: #ff3c7f;
-  --green: #00D3A3;
-  --yellow: #FFD500;
-  --orange: #FF6A00;
-  --red: #FF3C3C;
-  --purple: #B97CFF;
+  --green: #58ca58;
+  --yellow: #dac752;
+  --orange: #d49755;
+  --red: #d85757;
+  --pink: #d34fae;
+  --light-purple: #c053d8;
+  --purple: #8956d6;
+  --cyan: #52d8d8;
+  --light-blue: #54b1db;
+  --blue: #5788d8;
+  
+  /* Codeblock colors */
+  --code-function: var(--light-purple);
+  --code-keyword: var(--light-blue);
+  --code-property: var(--green);
+  --code-operator: var(--pink);
+  --code-important: var(--red);
+  --code-string: var(--orange);
+  --code-value: var(--cyan);
+  --code-tag: var(--blue);
 
   --divider-color: var(--color-base-30);
   --current-line-number-color: var(--yellow);
@@ -225,7 +238,7 @@ body.fancy-mermaid .edgeLabel:not(:empty) {
 /* Fancy code blocks */
 .cm-inline-code,
 .cm-s-obsidian .HyperMD-codeblock,
-.markdown-preview-view.markdown-preview-view :is(pre, code) {
+.markdown-reading-view .markdown-preview-view.markdown-preview-view :is(pre, code) {
 	--codeblock-border: var(--color-base-30);
 	--codeblock-roundness: var(--radius-s);
 	--code-block-alt-bg: var(--color-base-30);
