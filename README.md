@@ -72,6 +72,7 @@ Possible colors are:
 - `light-blue`
 - `cyan`
 - `light-purple`
+- `grey`
 
 So this is what a valid callout would look like:
 
