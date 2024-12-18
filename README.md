@@ -55,11 +55,11 @@ I kinda like em and you can change them as you want.
 
 A bunch of custom callouts.
 
-Predefined are `info`, `text` and `mt`.
+Predefined are `info`, `text`, `warn` and `mt`.
 
 You can choose the Icon for `c1`, `c2`, `c3` and `c4`.
 
-Every callout has to have a color attatched.
+Every callout has to have a color attached.
 
 Possible colors are:
 - `pink`
